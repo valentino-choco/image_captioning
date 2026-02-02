@@ -1,0 +1,22 @@
+# --- Deep Learning ---
+torch
+torchvision
+
+# --- Data & Math ---
+numpy
+scikit-learn
+kagglehub
+tqdm
+
+# --- Image Processing & Visualization ---
+Pillow
+matplotlib
+opencv-python
+imageio
+
+# --- NLP & Evaluation ---
+nltk
+pycocoevalcap
+
+# --- OpenAI CLIP (Install from Git) ---
+git+https://github.com/openai/CLIP.git
