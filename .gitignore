@@ -1,0 +1,11 @@
+cached_features/
+saved_models/
+data/
+flickr30k_images/
+flickr30k/
+
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+cached_features.zip

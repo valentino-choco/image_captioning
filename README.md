@@ -35,11 +35,32 @@ The project is organized into sequential notebooks to facilitate understanding a
 
 ## 🛠️ Installation & Requirements
 
-To run this project, you will need Python 3.8+.
+To run this project, you will need **Python 3.8+**.
 
-Unzip the `cached_features.zip` file to the `cached_features/` directory to use pre-computed image features.
-
-You can install all the necessary dependencies using the provided `requirements.txt` file:
+First, install all the necessary dependencies (including download tools) using the provided `requirements.txt` file:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Dataset Setup:
+
+Since the dataset is large (2.5 GB), it is not stored directly in this repository. You need to download it before running the project.
+
+- Download the data: Run the included script to automatically fetch the zip file:
+
+```bash
+python download_data.py
+```
+
+- Unzip the file: Extract the content of `cached_features.zip` into the `cached_features/` directory:
+
+```bash
+# On Linux/Mac
+unzip cached_features.zip -d cached_features/
+
+# On Windows (PowerShell)
+Expand-Archive cached_features.zip -DestinationPath cached_features/
+```
+
+You are now ready to run the project! 🚀
