@@ -2,6 +2,8 @@
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 
+video (in french) : https://youtu.be/xo1HeVU_LW0?si=cuM-JfsuDxccNLxy
+
 This project is an educational implementation and modernization of the seminal paper **"Deep Visual-Semantic Alignments for Generating Image Descriptions"** by Andrej Karpathy and Fei-Fei Li (CVPR 2015).
 
 The goal is to build a Deep Learning model capable of "looking" at an image and generating a coherent textual description in natural language. The architecture is split into two main components: **Visual-Semantic Alignment** (mapping image regions to words) and **Caption Generation** (using RNNs).
